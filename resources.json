@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "name": "Stone Block",
+    "weight": 1,
+    "resources": [[2, 4]]
+  },
+  {
+    "id": 2,
+    "name": "Stone",
+    "weight": 1
+  },
+  {
+    "id": 3,
+    "name": "Brick",
+    "weight": 1,
+    "resources": [
+      [1, 2],
+      [2, 4]
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Green wood",
+    "weight": 1
+  },
+  {
+    "id": 5,
+    "name": "Fiber",
+    "weight": 1
+  },
+  {
+    "id": 6,
+    "name": "Linen",
+    "weight": 1,
+    "resources": [[5, 4]]
+  },
+  {
+    "id": 7,
+    "name": "Sateen",
+    "weight": 1,
+    "resources": [[6, 4]]
+  },
+  {
+    "id": 8,
+    "name": "Iron Ore",
+    "weight": 1
+  },
+  {
+    "id": 9,
+    "name": "Iron Ingot",
+    "weight": 1,
+    "resources": [[8, 4]]
+  },
+  {
+    "id": 10,
+    "name": "Charcoal",
+    "weight": 1,
+    "resources": [[4, 2]]
+  },
+  {
+    "id": 11,
+    "name": "Flux",
+    "weight": 1
+  },
+  {
+    "id": 12,
+    "name": "Steel Ingot",
+    "weight": 1,
+    "resources": [
+      [9, 4],
+      [10, 2],
+      [11, 1]
+    ]
+  }
+]
