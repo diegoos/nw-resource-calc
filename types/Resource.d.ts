@@ -6,4 +6,5 @@ export interface Resource {
   readonly amount?: number;
   readonly resources?: Array<Array<number>>;
   readonly isCrafted?: boolean;
+  readonly i18n?: Object<string>;
 }

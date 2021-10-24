@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import Select, { SingleValue } from 'react-select';
-import { getResource, getResourceList } from 'modules/resources';
+import { getResource, getResourceList, translateResource } from 'modules/resources';
 
 // Types
 import type { Resource } from 'types/Resource';
@@ -13,8 +13,6 @@ interface Props {
 export default function ResourceSelect({ setResource, setAmount }: Props): ReactElement {
   const resourceList: Resource[] = getResourceList();
 
-  const resource: Resource = resourceList[0];
-
   type OptionType = {
     value: string;
     label: string;
@@ -22,7 +20,7 @@ export default function ResourceSelect({ setResource, setAmount }: Props): React
 
   const selectOptions: OptionType[] = resourceList.map((resource: Resource) => ({
     value: resource.id?.toString() || '',
-    label: resource.name?.toString() || '',
+    label: translateResource(resource, 'name') || '',
   }));
 
   const selectCustomStyle: Object = {
