@@ -4,6 +4,7 @@ import Recipe from './Recipe';
 
 // Types
 import type { Resource } from 'types/Resource';
+import { translateResource } from 'modules/resources';
 
 interface Props {
   resource: Resource | null;
@@ -19,7 +20,7 @@ export default function ResourceItem({ resource, amount, necessaryAmount }: Prop
           {/* TODO: Get images */}
           {/* <img src='https://via.placeholder.com/30' alt={resource.name} className='mr-2' /> */}
 
-          <p className='mr-2'>{resource.name}</p>
+          <p className='mr-2'>{translateResource(resource, 'name')}</p>
 
           <p>
             <span className='text-gray-600 mr-2'>x</span>
