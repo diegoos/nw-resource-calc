@@ -12,12 +12,9 @@
   },
   {
     "id": 3,
-    "name": "Brick",
+    "name": "Stone Brick",
     "weight": 1,
-    "resources": [
-      [1, 2],
-      [2, 4]
-    ]
+    "resources": [[1, 4]]
   },
   {
     "id": 4,
@@ -70,6 +67,57 @@
     "resources": [
       [9, 4],
       [10, 2],
+      [11, 1]
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Starmetal Ore",
+    "weight": 1
+  },
+  {
+    "id": 14,
+    "name": "Starmetal Ingot",
+    "weight": 1,
+    "resources": [
+      [13, 6],
+      [12, 2],
+      [11, 1],
+      [10, 2]
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Lumber",
+    "weight": 1,
+    "resources": [
+      [16, 4],
+      [17, 2]
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Aged Wood",
+    "weight": 1
+  },
+  {
+    "id": 17,
+    "name": "Timber",
+    "weight": 1,
+    "resources": [[4, 4]]
+  },
+  {
+    "id": 18,
+    "name": "Lodestone",
+    "weight": 1
+  },
+  {
+    "id": 19,
+    "name": "Lodestone Brick",
+    "weight": 1,
+    "resources": [
+      [18, 8],
+      [3, 2],
       [11, 1]
     ]
   }
