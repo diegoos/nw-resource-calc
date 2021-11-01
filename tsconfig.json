@@ -24,8 +24,9 @@
       ],
       "types": [
         "types"
-      ],
-    }
+      ]
+    },
+    "incremental": true
   },
   "types": [],
   "include": [

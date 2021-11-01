@@ -13,3 +13,6 @@ build:
 prod:
 	npm run build
 	npm start
+
+lint:
+	npm run lint
