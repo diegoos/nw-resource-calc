@@ -17,7 +17,8 @@ function MyApp({ Component, pageProps }: AppProps) {
     if (locale !== localeFromCookie) {
       router.push(pathname, asPath, { locale: localeFromCookie });
     }
-  }, [router, pathname, asPath, locale]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>
