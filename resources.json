@@ -215,5 +215,75 @@
         "name": "Tijolo de Magnetita"
       }
     }
+  },
+  {
+    "id": 20,
+    "name": "Tannin",
+    "weight": 0.2,
+    "i18n": {
+      "pt-br": {
+        "name": "Tanino"
+      }
+    }
+  },
+  {
+    "id": 21,
+    "name": "Thick Hide",
+    "weight": 0.2,
+    "i18n": {
+      "pt-br": {
+        "name": "Pele Grossa"
+      }
+    }
+  },
+  {
+    "id": 22,
+    "name": "Rawhide",
+    "weight": 0.2,
+    "i18n": {
+      "pt-br": {
+        "name": "Couro Cru"
+      }
+    }
+  },
+  {
+    "id": 23,
+    "name": "Coarse Leather",
+    "weight": 0.2,
+    "resources": [[22, 4]],
+    "i18n": {
+      "pt-br": {
+        "name": "Couro Grosseiro"
+      }
+    }
+  },
+  {
+    "id": 24,
+    "name": "Rugged Leather",
+    "weight": 0.2,
+    "resources": [
+      [22, 4],
+      [20, 1]
+    ],
+    "i18n": {
+      "pt-br": {
+        "name": "Couro Rústico"
+      }
+    }
+  },
+  {
+    "id": 25,
+    "name": "Layered Leather",
+    "weight": 0.2,
+    "resources": [
+      [21, 6],
+      [24, 2],
+      [20, 1]
+    ],
+    "i18n": {
+      "pt-br": {
+        "name": "Couro Reforçado"
+      }
+    }
   }
 ]
