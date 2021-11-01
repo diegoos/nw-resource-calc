@@ -27,9 +27,7 @@
       ],
     }
   },
-  "types": [
-    "styled-components-react-native"
-  ],
+  "types": [],
   "include": [
     "next-env.d.ts",
     "**/*.ts",
