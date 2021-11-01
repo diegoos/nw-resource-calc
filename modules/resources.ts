@@ -3,7 +3,7 @@ import type { Resource } from 'types/Resource';
 
 import resourceJson from '../resources.json';
 
-export function getResourceList() {
+export function getResourceList(): Resource[] {
   const resources: Resource[] = resourceJson;
 
   return resources;

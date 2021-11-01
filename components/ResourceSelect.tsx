@@ -23,6 +23,10 @@ export default function ResourceSelect({ setResource, setAmount }: Props): React
     label: translateResource(resource, 'name') || '',
   }));
 
+  const options: OptionType[] = selectOptions.sort((a: OptionType, b: OptionType) =>
+    a.label.localeCompare(b.label)
+  );
+
   const selectCustomStyle: Object = {
     control: (provided: Object) => ({
       ...provided,
@@ -33,7 +37,6 @@ export default function ResourceSelect({ setResource, setAmount }: Props): React
 
   const onChangeHandler = (option: SingleValue<OptionType>) => {
     setResource(getResource(option?.value));
-    console.log('change', option);
   };
 
   return (
@@ -45,7 +48,7 @@ export default function ResourceSelect({ setResource, setAmount }: Props): React
           styles={selectCustomStyle}
           className='w-full h-9 text-black rounded'
           classNamePrefix='resource-select'
-          options={selectOptions}
+          options={options}
           defaultValue={null}
           onChange={(option) => onChangeHandler(option)}
         />
