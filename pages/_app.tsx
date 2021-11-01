@@ -9,7 +9,7 @@ import Cookies from 'js-cookie';
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
-  const { pathname, asPath, locale, defaultLocale } = router;
+  const { pathname, asPath, locale } = router;
 
   useEffect(() => {
     const localeFromCookie = Cookies.get('NEXT_LOCALE');
@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     if (locale !== localeFromCookie) {
       router.push(pathname, asPath, { locale: localeFromCookie });
     }
-  }, []);
+  }, [router, pathname, asPath, locale]);
 
   return (
     <>
