@@ -285,5 +285,29 @@
         "name": "Couro Reforçado"
       }
     }
+  },
+  {
+    "id": 26,
+    "name": "Wyrdwood",
+    "weight": 0.2,
+    "i18n": {
+      "pt-br": {
+        "name": "Urdeira"
+      }
+    }
+  },
+  {
+    "id": 27,
+    "name": "Wyrdwood Planks",
+    "weight": 0.2,
+    "resources": [
+      [26, 6],
+      [15, 2]
+    ],
+    "i18n": {
+      "pt-br": {
+        "name": "Tábuas de Urdeira"
+      }
+    }
   }
 ]
