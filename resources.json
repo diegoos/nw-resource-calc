@@ -354,5 +354,53 @@
         "name": "Manteiga"
       }
     }
+  },
+  {
+    "id": 32,
+    "name": "Silk Threads",
+    "weight": 0.1,
+    "i18n": {
+      "pt-br": {
+        "name": "Fios de Seda"
+      }
+    }
+  },
+  {
+    "id": 33,
+    "name": "Silk",
+    "weight": 0.1,
+    "resources": [
+      [7, 2],
+      [32, 6]
+    ],
+    "i18n": {
+      "pt-br": {
+        "name": "Seda"
+      }
+    }
+  },
+  {
+    "id": 34,
+    "name": "Infused Silk",
+    "weight": 0.1,
+    "resources": [
+      [33, 2],
+      [35 ,8]
+    ],
+    "i18n": {
+      "pt-br": {
+        "name": "Seda Infusa"
+      }
+    }
+  },
+  {
+    "id": 35,
+    "name": "Wirefiber",
+    "weight": 0.1,
+    "i18n": {
+      "pt-br": {
+        "name": "Fibra-de-fio"
+      }
+    }
   }
 ]
